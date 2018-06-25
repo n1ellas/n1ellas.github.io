@@ -1,10 +1,11 @@
-// Select color input
-// Select size input
+// define color input
+// define button input
 var button, colorPicker;
 
 button = $("#button");
 colorPicker = $("#colorPicker");
 
+// button function
 button.click(function(e) {
   //call makeGrid function, remove the previous grid, set default the colorpicker
   $("tbody").remove();
@@ -14,9 +15,9 @@ button.click(function(e) {
 });
 
 // When size is submitted by the user, call makeGrid()
-
 function makeGrid() {
 
+//takes the height and width of user input and creates the grid.
     var n = $("#input_height").val();
     var m = $("#input_width").val();
 
