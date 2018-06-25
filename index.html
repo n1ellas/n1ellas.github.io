@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Pixel Art Maker!</title>
     <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700|Rubik" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -11,13 +12,19 @@
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
+        <!-- TODO: input grid height -->
         Grid Height:
         <input type="number" id="input_height" name="height" min="1" value="20">
+
+        <!-- TODO: input grid width -->
         Grid Width:
         <input type="number" id="input_width" name="width" min="1" value="20">
+
+        <!-- TODO: Creates grid -->
         <input type="submit" id="button" value="Create">
     </form>
-
+    
+    <!-- TODO: Choose color selector -->
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
 

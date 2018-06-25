@@ -1,7 +1,8 @@
+/* Body */
 body {
     text-align: center;
 }
-
+/* Header */
 h1 {
     font-family: Monoton;
     font-size: 70px;
@@ -9,37 +10,45 @@ h1 {
     color: #06c4d1;
 }
 
+/* header & Form */
 h2, form {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Header */
 h2 {
     margin: 1em 0 0.25em;
 }
 
+/* Header */
 h2:first-of-type {
     margin-top: 0.5em;
 }
 
+/* Table, Table rows and table data */
 table,
 tr,
 td {
     border: 1px solid black;
 }
 
+/* table */
 table {
     border-collapse: collapse;
     margin: 0 auto;
 }
 
+/* table row */
 tr {
     height: 20px;
 }
 
+/* table data */
 td {
     width: 20px;
 }
 
+/* input type (numbers) */
 input[type=number] {
     width: 6em;
 }
