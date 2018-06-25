@@ -5,4 +5,4 @@
 Pixel Art Maker - Is a project that I was given by Udacity in order to utilize the skillset that Ive learned during my course.
 
 Link to run project 
-- n1ellas.github.io
+- https://n1ellas.github.io/
